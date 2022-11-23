@@ -1,0 +1,97 @@
+body{
+    background-color: hsl(224, 46%, 9%);
+    font-family: "Rubik";
+  }
+  .main{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin: 130px 100px;
+  }
+  .side{
+    height:500px;
+    width:250px;
+    margin-right: 50px;
+  }
+  .Jeremy{
+    background-color: hsl(246, 80%, 60%);
+    height:330px;
+    width:200px;
+    border-radius:10px;
+    position:absolute;
+    z-index: 2;
+    padding:25px;
+    color:hsl(244, 86%, 81%);
+  }
+  #name{
+    color:white;
+    font-size: 45px;
+  }
+  .Jeremy img{
+    width:50px;
+    border-radius:100%;
+    margin-bottom:30px;
+  }
+  .Time{
+    height:200px;
+    width:200px;
+    background-color: hsl(236, 44%, 20%);
+    color:hsl(237, 29%, 54%);
+    position:absolute;
+    top:450px;
+    z-index: 1;
+    border-radius:10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    padding:25px;
+  }
+  .side2{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height:400px;
+    width:900px;
+  }
+  .box{
+    height:250px;
+    width:250px;
+    margin: 25px;
+    position:relative;
+  }
+  .box1{
+    display: flex;
+    justify-content: flex-end;
+    height:150px;
+    width:250px;
+    border-radius:10px;
+    background-color: hsl(15, 100%, 70%);
+  }
+  .box1 img{
+    width:80px;
+    height:50px;
+  }
+  .box2{
+    background-color: hsl(236, 44%, 20%);
+    border-radius:15px;
+    height:150px;
+    width:200px;
+    position:absolute;
+    top:45px;
+    padding:25px;
+    color:white;
+  }
+  .box2up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box2 p{
+    color:hsl(244, 86%, 81%);
+  }
+  #hours{
+    font-size: 36px;
+  }
+  .Jeremy img{
+    border: 3px solid white;
+  }
